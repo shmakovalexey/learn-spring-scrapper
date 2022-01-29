@@ -1,0 +1,12 @@
+package learn.spring.fssp.scraper;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication(scanBasePackages={ "learn.spring.fssp.scraper.core" })
+public class Main {
+    public static void main(String[] args) {
+        SpringApplication.run(Main.class, args);
+    }
+}
